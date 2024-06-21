@@ -3,12 +3,12 @@
 int main() {
     int a,b;
     scanf("%d %d", &a,&b);
-    int cnt=a;
     int i=0;
-    while(i<=cnt)
+    int result=a;
+    while(i<=a)
     {
-        a+=b;
-        printf("%d\n",a);
+        result+=b;
+        printf("%d\n",result);
         i++;
     }
     return 0;
