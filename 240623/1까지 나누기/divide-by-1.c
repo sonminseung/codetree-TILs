@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    double n;
+    int n;
     int cnt=0;
     int i=1;
 
-    scanf("%lf" ,&n);
-    double div=n;
+    scanf("%d" ,&n);
+    int div=n;
     while(1)
     {
         if(div<=1)
