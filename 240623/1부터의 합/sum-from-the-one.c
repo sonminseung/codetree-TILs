@@ -3,11 +3,13 @@
 int main() {
     int n;
     int sum=0;
+    int cnt;
     scanf("%d", &n);
     for(int i=1; i<=n; i++)
     {
         if(sum+i>n)
         {
+            cnt=i;
             break;
         }
         else
@@ -15,6 +17,6 @@ int main() {
             sum+=i;
         }
     }
-    printf("%d", sum);
+    printf("%d", cnt);
     return 0;
 }
