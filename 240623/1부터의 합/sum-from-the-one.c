@@ -6,7 +6,7 @@ int main() {
     scanf("%d", &n);
     for(int i=1; i<=n; i++)
     {
-        if(sum+i>=n)
+        if(sum+i>n)
         {
             break;
         }
