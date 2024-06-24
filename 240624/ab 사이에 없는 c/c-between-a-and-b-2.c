@@ -8,10 +8,12 @@ int main() {
         if(i%c==0)
         {
             printf("NO");
+            break;
         }
         if(i==b)
         {
             printf("YES");
+            break;
         }
     }
     return 0;
